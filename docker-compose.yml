@@ -27,7 +27,7 @@ services:
       - "3000:3000"
     environment:
       - GF_SECURITY_ADMIN_USER=admin
-      - GF_SECURITY_ADMIN_PASSWORD=16111987Mm2%%
+      - GF_SECURITY_ADMIN_PASSWORD=root
     volumes:
       - grafana-data:/var/lib/grafana
     restart: unless-stopped
