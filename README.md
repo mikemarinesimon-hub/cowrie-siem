@@ -52,10 +52,7 @@ cd cowrie-siem
 ```
 
 ### 2. Configure credentials
-```bash
-cp .env.example .env
-nano .env   # set your Grafana admin password
-```
+
 
 ### 3. Adjust the log path (if needed)
 In `docker-compose.yml`, ensure the Promtail volume points to your Cowrie log directory:
