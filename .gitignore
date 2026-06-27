@@ -1,0 +1,4 @@
+*.log
+positions.yaml
+grafana-data/
+.env
